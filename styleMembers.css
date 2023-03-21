@@ -12,6 +12,40 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+
+.btn-14 {
+  background: #E7BD70;
+  border: none;
+  z-index: 1;
+  margin-left: 90%;
+
+}
+.btn-14:after {
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 0;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 5px;
+  background-color: #E7BD70;
+  transition: all 0.3s ease;
+}
+.btn-14:hover {
+  color: #000;
+}
+.btn-14:hover:after {
+  top: auto;
+  bottom: 0;
+  height: 100%;
+}
+.btn-14:active {
+  top: 2px;
+}
+
+
+
 .mast__bg {
   position: absolute;
   top: 0;
